@@ -1,0 +1,91 @@
+header i {
+  font-size: 30px !important;
+  color: cornflowerblue;
+}
+.navbar {
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+.navbar a {
+  color: white !important;
+  font-size: 1.2em;
+}
+
+.dropdown-menu a {
+  color: cornflowerblue !important;
+  font-size: 1.2em;
+}
+
+.carousel-caption {
+  bottom: 150px;
+  font-size: 30px;
+}
+
+.abt-img {
+  border: 5px solid orange;
+}
+
+.clients img {
+  height: 100px;
+}
+
+.blog {
+  background-color: orange;
+}
+
+.blog-text {
+  padding: 0px 20%;
+}
+.discount a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+.discount a:hover {
+  color: black;
+}
+.bottom .fa {
+  padding-right: 10px;
+  color: cornflowerblue;
+}
+footer {
+  background-color: #ddd;
+}
+.social a {
+  color: #777;
+  padding: 5px 10px;
+  margin-top: 10px !important;
+  border-radius: 5px;
+}
+.social a:hover {
+  margin-top: 0px;
+}
+.fb:hover {
+  margin-top: 0px !important;
+  background-color: darkblue;
+  color: white;
+}
+
+.tw:hover {
+  margin-top: 0px;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+.in:hover {
+  margin-top: 0px;
+  background-color: rgb(124, 81, 49);
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .hide {
+    display: none !important;
+  }
+  .logo img {
+    width: 200px !important;
+    margin: auto;
+  }
+  .logo {
+    text-align: center;
+  }
+}
